@@ -133,8 +133,6 @@ void Gamescene::tick(u16 keys) {
     if (sonicModel->getDood()) {
         sonicModel->getSpriteSonic()->stopAnimating();
         sonicModel->getSpriteSonic()->animateToFrame(12);
-        TextStream::instance().setText(std::string("GAME OVER"), 10, 10);
-        TextStream::instance().setText(std::string("PRESS START TO PLAY AGAIN"), 12, 2);
         engine->enqueueSound(sonicdeath, sizeof(sonicdeath), 16000);
         if (keys & KEY_START) {
             resetGame();
