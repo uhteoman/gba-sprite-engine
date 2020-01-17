@@ -9,13 +9,4 @@ Once compiled, the game can be run on a GBA emulator. Once you've loaded the gam
 # Sprites
 
 The sprites used in this game are from Sonic The Hedgehog and Super Mario Bros videogames.
-# Domain Model
 
-```mermaid
-graph LR
-A[Sonic Escape] --> B(Startscreen)
-A --> C(Gamescene)
-D((Sonic)) --> C
-D((Sonic)) --> B
-E((Platform)) --> C
-```
