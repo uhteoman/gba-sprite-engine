@@ -24,3 +24,5 @@ void Bullet::tick() {
     sprite->moveTo(coords.front());
     coords.pop_front();
 }
+
+

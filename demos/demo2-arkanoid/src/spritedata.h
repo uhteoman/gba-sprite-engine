@@ -2,7 +2,7 @@
 // Created by Wouter Groeneveld on 08/08/18.
 //
 
-#ifndef GBA_SPRITE_ENGINE_PROJECT_SPRITEDATA_H
+#ifndef GBA_SPRITE_ENGINE_PROJECT_SONICDATA_H
 #define GBA_SPRITE_ENGINE_PROJECT_SPRITEDATA_H
 
 
@@ -131,4 +131,4 @@ const unsigned short paletteSharedPal[8] __attribute__((aligned(4)))=
 //}}BLOCK(paletteShared)
 
 
-#endif //GBA_SPRITE_ENGINE_PROJECT_SPRITEDATA_H
+#endif //GBA_SPRITE_ENGINE_PROJECT_SONICDATA_H

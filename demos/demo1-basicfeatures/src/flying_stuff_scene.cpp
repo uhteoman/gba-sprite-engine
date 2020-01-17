@@ -63,7 +63,7 @@ void FlyingStuffScene::tick(u16 keys) {
     scrollX += 1;
 
     rotation += rotationDiff;
-    kulFlying.get()->rotate(rotation);
+    //kulFlying.get()->rotate(rotation);
     player.get()->rotate(rotation);
     bg.get()->scroll(scrollX, scrollY);
 }

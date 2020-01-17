@@ -15,7 +15,7 @@
 //
 //======================================================================
 
-const unsigned int splashimageTiles[9616] __attribute__((aligned(4)))=
+const unsigned int startscreenimageTiles[9616] __attribute__((aligned(4)))=
         {
                 0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,
                 0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,
@@ -1371,7 +1371,7 @@ const unsigned int splashimageTiles[9616] __attribute__((aligned(4)))=
                 0x3B3B3B36,0x3B3B3B3B,0x3B47474B,0x474B4E47,0x5A66665A,0x5A556666,0x83818383,0x8D848584,
         };
 
-const unsigned short splashimageMap[1024] __attribute__((aligned(4)))=
+const unsigned short startscreenimageMap[1024] __attribute__((aligned(4)))=
         {
                 0x6001,0x3002,0x6003,0x6004,0x5005,0x4006,0x4007,0x1008,
                 0x7009,0x800A,0x200B,0x300C,0x600D,0x000E,0x100F,0x3010,
@@ -1518,7 +1518,7 @@ const unsigned short splashimageMap[1024] __attribute__((aligned(4)))=
                 0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
         };
 
-const unsigned short splashimagePal[256] __attribute__((aligned(4)))=
+const unsigned short startscreenimagePal[256] __attribute__((aligned(4)))=
         {
                 0x0002,0x0023,0x0425,0x0844,0x0447,0x0048,0x0C86,0x0069,
                 0x1086,0x0C67,0x046A,0x006C,0x0869,0x048B,0x0C89,0x088A,
